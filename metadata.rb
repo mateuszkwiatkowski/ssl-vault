@@ -4,7 +4,8 @@ maintainer_email 'gba@onbeep.com'
 license          'The MIT License (MIT)'
 description      'SSL key & certificate storage in chef-vault.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '1.1.1'
+#version IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '1.1.1'
+version '1.1.14'
 
 supports 'ubuntu'
 
