@@ -11,6 +11,6 @@
 
 directory node['ssl-vault']['private_key_directory'] do
   owner 'root'
-  group node['ssl-vault']['cert_group']
+  group node['ssl-vault']['key_group']
   mode node['ssl-vault']['chmod']['private_key_directory']
 end

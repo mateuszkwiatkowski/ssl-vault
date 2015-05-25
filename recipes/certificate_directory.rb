@@ -12,6 +12,6 @@
 directory node['ssl-vault']['certificate_directory'] do
   recursive true
   owner 'root'
-  group 'root'
+  node['ssl-vault']['cert_group']
   mode node['ssl-vault']['chmod']['certificate_directory']
 end
