@@ -16,7 +16,7 @@ default['ssl-vault']['certificate_directory'] = '/etc/ssl/certs'
 default['ssl-vault']['private_key_directory'] = '/etc/ssl/private'
 default['ssl-vault']['cert_group'] = 'root'
 default['ssl-vault']['key_group'] = 'root'
-default['ssl-vault']['chmod']['private_key_directory'] = '0710'
+default['ssl-vault']['chmod']['private_key_directory'] = '0750'
 default['ssl-vault']['chmod']['certificate_directory'] = '0755'
 
 # There's limits on Data Bag Key names:
